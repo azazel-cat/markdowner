@@ -1,0 +1,20 @@
+{
+  "name": "markdowner",
+  "main": "./lib/markdowner",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "markdowner:toggle"
+  },
+  "repository": "https://github.com/atom/markdowner",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.3",
+    "marked": "^14.0.0",
+    "mermaid": "^9.0.0"
+  }
+}
